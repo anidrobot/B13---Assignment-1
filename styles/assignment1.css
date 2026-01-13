@@ -104,7 +104,7 @@ display: inline-block;
 .hero-heading h1 .green{
     color: #30B868;
 }
-.hero--info p{
+.hero-info{
     font-size: 18px;
     line-height:24px;
     font-weight: 400;
