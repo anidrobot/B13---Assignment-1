@@ -295,3 +295,39 @@ color: #001931;
     line-height: 24px;
     gap: 16px ;
 }
+#footer-container{
+    background-color: #001931;
+    height: 348px;
+    text-align: center;
+    justify-content: center;
+    padding: 120px 120px 30px 120px ;
+    gap: 80 px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright{
+    margin: 80px 120px 30px 120px;
+}
+.footer-copyright p{
+    font-size: 16px;
+    margin-top: 30px;
+    color: #FAFAFA;
+}
+.social-hader{
+    font-size: 20px;
+    font-weight: 500;
+    color:#FFFFFF;
+}
+.social-logos ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+}
+.social-logos ul li a{
+    color: #FFFFFF;
+}
