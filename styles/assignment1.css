@@ -3,11 +3,29 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* shared style  */
 .font-source-sans {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
 }
 
+/* common style */
+.btn{
+    display:inline-flex ;
+    text-align: center;
+    border: none;
+    background-color: #469165;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    border-radius: 4px;
+
+}
+
+.btn:hover {
+  background-color: #eb2a03;}
+
+/* heading style */
 header{
     background-color: #ffffff;
     width: 1600px;
@@ -39,16 +57,67 @@ nav{
     text-decoration: none;
     padding-top: 34px;
 }
-.btn{
-    border: none;
-    background-color: #469165;
-    font-size: 16px;
-    font-weight: 600;
-    color: #ffffff;
-    padding: 12px 16px ;
-    margin: 36.5px;
-    border-radius: 4px;
+
+.btn-1{
+    margin: 24px 120px 24px 0;
+    padding: 12px 16px;
 }
-.btn:hover {
-  background-color: #eb2a03;
+
+
+.hero-section{
+background-image: url("../assets/hero-bg.png");
+background-size:cover;
+height: 674px;
+ background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-content{
+    width: 1360;
+    height: 379px;
+    gap: 32px;
+    text-align: center;  
+}
+.badge{
+display: inline-block;
+  color: #469165;
+  background: #ffffff;
+  padding: 8px 12px 8px 34px;
+  border-radius: 1000px;
+  font-size: 16px;
+  gap: 6px;
+  margin-bottom: 20px
+}
+.hero-heading h1{
+    font-size: 72px;
+    width: 770px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.hero-heading h1 .green{
+    color: #30B868;
+}
+.hero--info p{
+    font-size: 18px;
+    line-height:24px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.hero-buttons{
+    padding-top: 32px;
+    gap: 10px;
+    display: inline-flex;
+}
+.btn-2{  
+    padding: 12px 16px;
+    border: 1px;
+   
+}
+.btn-3{
+    padding: 12px 16px;
+    background-color:transparent;
+    border: 1px solid #FFFFFF;
+    gap: 10px;
 }
