@@ -91,13 +91,15 @@ display: inline-block;
   border-radius: 1000px;
   font-size: 16px;
   gap: 6px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .hero-heading h1{
     font-size: 72px;
     width: 770px;
     color: #FFFFFF;
     margin: 0 auto;
+    line-height: 100%;
+    margin-bottom: 16px;
 }
 .hero-heading h1 .green{
     color: #30B868;
@@ -252,4 +254,44 @@ display: inline-block;
 .brain-info img {
     width: 20px;
     height: 20px;
+}
+#ea-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto ;
+}
+.ea-container{
+    width:85%;
+    max-width: 1360;
+    height: 384px; ;
+    background-color: #F7F6F2;
+    padding:80px 40px 80px 40px;
+    margin: 2px 120px 120px 120px;
+    text-align: center;
+    border-radius: 12px;
+}
+.ea-title .title{
+font-size: 40px;
+font-weight: 700;
+line-height: 100%;
+margin-bottom: 16px;
+color: #001931;
+}
+.ea-title p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    gap: 16px ;
+}
+.ea-button{
+    padding: 24px 16px;
+}
+.p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+    gap: 16px ;
 }
